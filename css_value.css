@@ -1,0 +1,295 @@
+.ramki{
+    background-color:#696969;
+    margin: 0px 10% 0px 10%; /* top right bottom left */
+    border: 0px;
+}
+
+.img1{
+
+  width: 100%; /* Ширина изображения */
+  height: auto; /* Высота изображения */
+  background: url(img/tsoqxxpzclf51-e1612791695331-1024x648.jpg); /* Прописываем путь к файлу */
+  background-repeat: no-repeat; /* Не повторяем */
+  background-size: cover; /* Размер фона */
+  background-position: center; /* Позиция картинкипо центру */
+  }
+
+.responce{
+
+ border-style: solid;
+ margin: 10px;
+
+  
+}
+.container_2{
+background: rgb(204, 255, 0);
+    width: 100%;
+}
+
+.soder{
+    background: rgb(82, 136, 128);
+    width: 100%;
+    
+  }
+
+.q1{
+
+  background: gray;
+  width: 100%;
+}
+
+
+
+.img_goto, .img_noa, .img_asuma, .img_hiromi,
+.img_ota, .img_klancy, .img_shinshi, .img_shinobu,
+.img_sakaki, .img_shiba, .img_dectec {
+  width: 350px;
+  height: 400px;
+}
+
+
+/*Границы текста*/
+.Description{
+  margin: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.Plot{
+  margin: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.Characters{
+  margin: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.Character{
+
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  width: 450px;
+  text-align: center;
+  font-size: large;
+  margin: 15px;
+}
+
+
+.Character_bls{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.vir{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.cor_2{
+  margin: 20px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+@media screen and (min-width: 1650px){
+  .pic_2{ margin: 20px;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   float: left;
+   width: 300px; height: 400px;
+   background-color: rgb(73, 180, 89);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .cor{
+       margin-bottom: 170px;
+ }
+ 
+ .for_Yu_video{
+  width:1230px; height:650px;}
+}
+
+@media screen and (max-width: 1650px){
+ .pic_2{ margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  float: left;
+  width: 300px; height: 400px;
+  background-color: rgb(73, 180, 89);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cor{
+      margin-bottom: 170px;
+}
+.for_Yu_video{
+  width:1050px; height:650px;
+}
+
+}
+
+@media screen and (max-width: 1400px){
+  .pic_2{
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  float: left;
+  width: 300px; height: 400px;
+  background-color: rgb(73, 180, 89);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .cor{
+      margin-bottom: 120px;
+  }
+  .for_Yu_video{
+    width:1030px; height:500px;
+  }
+}
+
+@media screen and (max-width: 1280px){
+  .pic_2 {
+
+      margin: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        float: left;
+        width: 300px; height: 400px;
+        background-color: rgb(73, 180, 89);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .for_Yu_video{
+        width:930px; height:500px;
+      }
+}
+
+@media screen and (max-width: 998px){
+  .pic_2 {
+
+      margin: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        float: left;
+        width: 300px; height: 400px;
+        background-color: rgb(73, 180, 89);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .for_Yu_video{
+        width:700px; height:400px;
+      }
+}
+
+@media screen and (max-width: 768px){
+  .pic_2 {
+
+      margin: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        float: left;
+        width: 200px; height: 300px;
+        background-color: rgb(73, 180, 89);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      } 
+      .for_Yu_video{
+        width:530px; height:300px;
+      }
+}
+
+@media screen and (max-width: 576px){
+  .pic_2 {
+
+      margin: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        float: left;
+        width: 300px; height: 400px;
+        background-color: rgb(73, 180, 89);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+  .for_Yu_video{
+    width: 370px; height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px){
+.pic_2 {
+
+    margin: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      float: left;
+      width: 250px; height: 320px;
+      background-color: rgb(73, 180, 89);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+.for_Yu_video{
+  width: 300px; height: 200px;
+}
+}
+
+
+
+
+@media screen and (max-width: 320px){
+.pic_2 {
+
+    margin: 5px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      float: left;
+      width: 250px; height: 350px;
+      background-color: rgb(73, 180, 89);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+.for_Yu_video{
+  width: 240px; height: 150px;
+}
+.ramki{
+  background-color:#696969;
+  margin: 0px 0% 0px 0%; /* top right bottom left */
+  border: 0px;
+}
+.Description{
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.Character{
+
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  font-size: large;
+  margin: 15px;
+}
+.img_goto, .img_noa, .img_asuma, .img_hiromi,
+.img_ota, .img_klancy, .img_shinshi, .img_shinobu,
+.img_sakaki, .img_shiba, .img_dectec {
+  width: 250px;
+  height: 350px;
+}
+
+}
+
+
+.img_trailer_standart{
+  margin: 20px;
+  width: 300px; height: 400px;
+
+}
+
+.text_cor{
+  margin: 0px 5% 0px 5%; /* top right bottom left */
+}
